@@ -1,0 +1,32 @@
+
+/* Style for the .logopart container */
+.logopart {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* 100% of the viewport height */
+    background-color: #333; /* Background color for .logopart, change as needed */
+    cursor: pointer;
+  }
+  
+  /* Style for the individual icons inside .logopart */
+  .logopart svg {
+    fill: #fff; /* Default icon color, change as needed */
+    margin: 10px; /* Add spacing around the icons */
+  }
+  
+  /* Style for the Facebook icon */
+  .logopart .bi-facebook {
+    fill: #1877F2; /* Facebook color */
+  }
+  
+  /* Style for the Instagram icon */
+  .logopart .bi-instagram {
+    fill: #8a3ab9; /* Instagram color */
+  }
+  
+  /* Style for the Twitter icon */
+  .logopart .bi-twitter {
+    fill: #1DA1F2; /* Twitter color */
+  }
+  

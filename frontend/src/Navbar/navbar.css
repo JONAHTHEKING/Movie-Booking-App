@@ -1,0 +1,245 @@
+
+
+.boletonav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+.tob{
+    color: red;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn-outline-success {
+    color: white !important;
+    border-color:white !important;
+    box-shadow: 3px 3px 5px gray !important;
+}
+.btn-outline-success:hover{
+    background-color: purple !important;
+}
+
+
+.navbar{
+    background: linear-gradient(90deg, rgb(5, 20, 69) 0%, rgb(3, 31, 91) 57%, rgb(6, 33, 106) 100%);
+    /* background-color: #0a1e5e !important; */
+    height: 80px;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: white !important;
+    font-size: larger !important;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active:hover{
+    color: rgb(140, 9, 206) !important;
+
+}
+
+.container-fluid{
+    gap: 10px !important;
+}
+
+.d-flex {
+    display: flex !important;
+    justify-content: center !important;
+    justify-content: space-around;
+    gap: 5px;
+   
+}
+.movie-image{
+    border-radius: 50%;
+    background: transparent;
+}
+
+
+.Login-button, .signup-button {
+    margin-right: 40px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+   
+ 
+   
+  }
+
+ 
+
+  .Login-button:hover,
+.signup-button:hover {
+  background-color: #29059f; 
+  transform: scale(1.05);
+  animation: shake 0.3s ease-in-out;
+}
+
+.login-button:active,
+.signup-button:active {
+  transform: translateY(2px); /* Slight downward shift when clicked */
+}
+
+.nav-item{
+    display: flex; 
+}
+
+.mybooking {
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.mybooking::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scaleX(0); /* Initial state for the hover effect */
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.mybooking:hover::before {
+    transform: scaleX(1); /* Expand the background on hover */
+    transform-origin: right;
+}
+
+.mybooking:active {
+    transform: translateY(2px); /* Push the button down slightly when clicked */
+    background-color: #f4511e; /* Change the background color when clicked */
+}
+
+
+
+.logout{
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    overflow: hidden;
+}
+
+
+.logout {
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.logout::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scaleX(0); /* Initial state for the hover effect */
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.logout:hover::before {
+    transform: scaleX(1); /* Expand the background on hover */
+    transform-origin: right;
+}
+
+.logout:active {
+    transform: translateY(2px); /* Push the button down slightly when clicked */
+    background-image: -webkit-linear-gradient(169deg, #ff4343 17%, #aa52a1 63%, #5560ff 100%);
+}
+
+
+
+    .hey {
+        background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+        display: inline-block;
+        padding: 5px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #ff5722;
+        border: none;
+        border-radius: 30px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        overflow: hidden;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .hey:hover {
+        background-color: #ff7043;
+        transform: scale(1.05);
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.05);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .hey {
+        animation: pulse 1.5s infinite;
+    }
+
+    .hey {
+        transition: background-image 0.3s ease;
+    }
+
+    .hey:hover {
+        background-image: -webkit-linear-gradient(169deg, #4a4ee9 17%, #aa52a1 63%, #ff4343 100%);
+    } 
+
+
+
+  
+
+
+

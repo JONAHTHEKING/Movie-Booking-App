@@ -1,0 +1,331 @@
+
+.col-md-3{
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 20% !important;
+}
+
+
+.product-title{
+    cursor: pointer;
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 3px black;
+}
+
+
+
+
+
+
+.thtrdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.booknow{
+
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #ff4343 100%);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    border-radius: 2em;
+    
+}
+.booknow:hover {
+  
+    transform: scale(1.05);
+  animation: shake 0.3s ease-in-out;
+  }
+
+  .booknow:active {
+
+    transform: translateY(1px); /* Slight downward shift when clicked */
+    
+  }
+
+
+.card-text{
+    cursor: pointer;
+    color: white;
+    font-size: 1em;
+    text-shadow: 2px 2px 3px black;
+
+
+}
+
+
+/* 
+ .pagination{
+    margin: 1em;
+    justify-content: center !important;
+    background: transparent !important;
+
+} */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+
+  background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #ff4343 100%);
+  
+
+}
+
+
+
+
+.show{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px !important;
+}
+
+
+.popcone{
+    float: left; /* Float the image to the left side */
+    margin-right: -80px;
+    margin-left: +70px;
+    margin-top: -40px;
+    text-decoration: underline;
+    
+}
+
+.fruit{
+    float: right; /* Float the image to the left side */
+    margin-right: +75px;
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+
+ /* moviepage.css */
+
+/* Style the image container */
+.image-container {
+  width: 18rem;
+  height: 20rem;
+  border: 2px solid #007BFF; /* Add a border to the container */
+  background-color: transparent; /* Set the background color to transparent */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Hide overflow to clip the image */
+}
+
+/* Add a smooth transition for the zoom effect on the image */
+.image-container .zoom-image {
+  transition: transform 0.3s ease;
+}
+
+/* Apply a scale transformation on hover to zoom in (1.1x) on the image */
+.image-container:hover .zoom-image {
+  transform: scale(1.1);
+}
+  
+
+
+/* Style for the filter section container */
+.filter-section {
+    background-image: url("http://pixner.net/boleto/demo/assets/images/ticket/ticket-bg01.jpg");
+    padding: 30px;
+    opacity: 0.9;
+    display: flex;
+    margin-bottom: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .header1{
+    color: #31d7a9;
+    font-weight: 600;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.header2{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 36px;
+}
+.searchOption{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchOption label{
+  color: #31d7a9;
+  margin: 0 12px;
+  justify-content: space-between;
+}
+.searchBox{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 36px 20px;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.searchWrapper{
+  border-bottom: 1px solid white;
+  width: 21%;
+  padding-bottom: 2px;
+}
+
+
+
+
+
+
+
+  
+  /* Style for the select labels and dropdowns */
+  .select-label,
+  .select-class {
+    margin-right: 1em;
+    color: white; /* Text color for labels and dropdowns */
+  }
+  
+/* Style for the search input container */
+.search-input {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    border: none; /* Remove the default border */
+    border-bottom: 1px solid #ccc; /* Add a bottom border for the single line */
+    padding: 5px;
+    transition: border-color 0.3s; /* Add a transition for the border color */
+  }
+  
+  /* Style for the search icon */
+  .search-icon {
+    color: #007bff; /* Color for the search icon */
+    font-size: 1.2em; /* Adjust the icon size as needed */
+    animation: moveIcon 0.5s ease-in-out infinite alternate; /* Add an animation for the icon */
+  }
+  
+  @keyframes moveIcon {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(5px); /* Adjust the distance to move the icon */
+    }
+  }
+  
+  /* Style for the search input */
+  .sear {
+    border: none;
+    outline: none;
+    flex: 1; /* Allow the input to expand within the container */
+    width: 25em;
+    transition: border-color 0.3s; /* Add a transition for the border color */
+  }
+  
+  /* Style for the search button */
+
+  
+  /* Placeholder text style */
+  .sear::placeholder {
+    color: #999; /* Placeholder text color */
+  }
+  
+  /* Hover effect for the search input */
+  .search-input:hover,
+  .sear:hover {
+    border-color: #007bff; /* Change border color on hover */
+  }
+  
+  /* Additional styling as needed */
+  
+  
+/* Style for the select elements */
+.selecting,
+.options {
+ 
+  border: 1px solid #ccc; /* Add a border to the select element */
+  border-radius: 5px; /* Add rounded corners to the select element */
+  padding: 5px; /* Add padding for spacing */
+  color: #333; /* Text color for the select element */
+  outline: none; /* Remove the default outline */
+}
+
+/* Style for the option elements */
+.selecting option,
+.options option {
+  background-color: transparent; /* Set the background of options to transparent */
+  color: #333; /* Text color for options */
+}
+
+/* Additional styling as needed */
+
+/* Style for the search button */
+.sear1 {
+    background-color: #007bff; /* Background color for the search button */
+    color: #fff; /* Text color for the search button */
+    border: none; /* Remove border for the search button */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Add animations for background color and scale */
+    border-radius: 10px;
+    width: 5em;
+    height: 2em;
+    
+
+
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+    padding: 5px 10px;
+  }
+  
+  /* Hover effect for the search button */
+  .sear1:hover {
+    background-color: #0056b3; /* Change background color on hover */
+    transform: scale(1.05); /* Scale the button slightly on hover */
+  }
+  
+
+.title{
+
+display: flex;
+background-color:#032055;
+/* align-items: center; */
+justify-content: center;
+width: 18rem;
+height: 5rem;
+color: #fff;
+text-decoration: underline;
+text-decoration-color: blue;
+}
+
+/* Transparent Button Styles with White Text and Bold Numbers */
+.btn-transparent {
+  background-color: transparent; /* Set background color to transparent */
+  color: #fff; /* Set text color to white */
+  font-weight: bold; /* Make the text bold */
+  border: 1px solid #3498db; /* Add border */
+  cursor: pointer;
+  font-size: 1.2em; /* Adjust font size as needed */
+  padding: 10px 20px; /* Adjust padding as needed */
+  margin: 5px; /* Add margin for spacing between buttons */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  transition: background-color 0.3s, color 0.3s, transform 0.2s; /* Add transition effects */
+}
+
+.btn-transparent:hover {
+  background-color: #3498db; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+  transform: scale(1.05); /* Add scaling effect on hover */
+}
+

@@ -1,0 +1,18 @@
+/* animation.css */
+@keyframes letterSlide {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .letter-animation {
+    display: inline-block;
+    opacity: 0;
+    animation: letterSlide 2s ease-in-out infinite alternate;
+  }
+  

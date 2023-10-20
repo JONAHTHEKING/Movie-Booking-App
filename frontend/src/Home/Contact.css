@@ -1,0 +1,94 @@
+.contactForm {
+    width: 500px;
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: rgba(68, 90, 153, 0.051);
+    padding: 60px 45px;
+    box-shadow: 0px 0px 29.4px 0.6px rgb(0 0 0 / 50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center vertically */
+}
+
+@keyframes waterFlow {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+@keyframes waterFlow {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(5px);
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.contactus,
+.getintouch {
+    margin-top: -50px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #00A8E8; /* Attractive color for headings */
+    animation: waterFlow 2s infinite linear; /* Apply the waterFlow animation */
+}
+
+.one-word {
+    animation: slideInFromLeft 1s ease-in-out forwards; /* Apply the slideInFromLeft animation */
+}
+
+.send-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .send-button:hover {
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .send-button:active {
+    background-color: #2c3e50;
+  }
+  
