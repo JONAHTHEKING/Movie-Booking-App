@@ -1,0 +1,360 @@
+[{
+  "_id": {
+    "$oid": "6522a40bc84d739270372d97"
+  },
+  "theater_id": 1,
+  "name": "Cinepolis",
+  "city": "Hyderabad",
+  "pincode": 50065,
+  "timing": "10:00 AM",
+  "address": "Near water plant",
+  "movie_id": 1
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372d98"
+  },
+  "theater_id": 2,
+  "name": "Cinepolis",
+  "city": "Hyderabad",
+  "pincode": 345455,
+  "movie_id": 1,
+  "timing": "09:30 AM",
+  "address": "New York"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372d99"
+  },
+  "theater_id": 3,
+  "name": "Inox",
+  "city": "Hyderabad",
+  "pincode": 876687,
+  "movie_id": 2,
+  "timing": "12:30 PM",
+  "address": "Near water plant"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372d9a"
+  },
+  "theater_id": 4,
+  "name": "Cinepolis",
+  "city": "Kolkata",
+  "pincode": 987567,
+  "movie_id": 2,
+  "timing": "08:30 AM",
+  "address": "Near water plant"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372d9b"
+  },
+  "theater_id": 5,
+  "name": "PVR",
+  "city": "Kolkata",
+  "pincode": 456654,
+  "movie_id": 3,
+  "timing": "1:30 PM",
+  "address": "Mani Square Mall"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372d9c"
+  },
+  "theater_id": 6,
+  "name": "Inox",
+  "city": "Kolkata",
+  "pincode": 765456,
+  "movie_id": 3,
+  "timing": "06:30 PM",
+  "address": "City Center 1"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372d9d"
+  },
+  "theater_id": 7,
+  "name": "Cinemax",
+  "city": "Kolkata",
+  "pincode": 700043,
+  "movie_id": 4,
+  "timing": "11:30 AM",
+  "address": "Near Supermarket"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372d9e"
+  },
+  "theater_id": 8,
+  "name": "Inox",
+  "city": "London",
+  "pincode": 45323,
+  "movie_id": 4,
+  "timing": "1:00 PM",
+  "address": "Near Amazone Store"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372d9f"
+  },
+  "theater_id": 9,
+  "name": "Cinemax",
+  "city": "London",
+  "pincode": 700043,
+  "movie_id": 5,
+  "timing": "4:45 PM",
+  "address": "Near water plant"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372da0"
+  },
+  "theater_id": 10,
+  "name": "Inox",
+  "city": "London",
+  "pincode": 7000122,
+  "movie_id": 5,
+  "timing": "1:10 PM",
+  "address": "Anatham shop closer"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372da1"
+  },
+  "theater_id": 11,
+  "name": "Imax",
+  "city": "Kakinada",
+  "pincode": 98765,
+  "movie_id": 6,
+  "timing": "1:05 AM",
+  "address": "Beside Gandhi Park"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372da2"
+  },
+  "theater_id": 12,
+  "name": "Imax",
+  "city": "Kakinada",
+  "pincode": 344334,
+  "movie_id": 6,
+  "timing": "09:35 PM",
+  "address": "Miyapur"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372da3"
+  },
+  "theater_id": 13,
+  "name": "Imax",
+  "city": "Hyderabad",
+  "pincode": 56765,
+  "movie_id": 7,
+  "timing": "1:20 PM",
+  "address": "Near water plant"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372da4"
+  },
+  "theater_id": 14,
+  "name": "Imax",
+  "city": "Kakinada",
+  "pincode": 99878,
+  "movie_id": 7,
+  "timing": "11:10 AM",
+  "address": "Atindra Barrackpore"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372da5"
+  },
+  "theater_id": 15,
+  "name": "AMC",
+  "city": "Paris",
+  "pincode": 503002,
+  "movie_id": 8,
+  "timing": "1:30 PM",
+  "address": "Near water plant"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372da6"
+  },
+  "theater_id": 16,
+  "name": "AMC",
+  "city": "Paris",
+  "pincode": 87566,
+  "movie_id": 8,
+  "timing": "1:35 PM",
+  "address": "Near More shop"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372da7"
+  },
+  "theater_id": 17,
+  "name": "AMC",
+  "city": "Paris",
+  "pincode": 503002,
+  "movie_id": 9,
+  "timing": "1:35 PM",
+  "address": "Opposite Swathi hospital"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372da8"
+  },
+  "theater_id": 18,
+  "name": "National Theater",
+  "city": "London",
+  "pincode": 988778,
+  "movie_id": 9,
+  "timing": "2:35 PM",
+  "address": "Near Court"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372da9"
+  },
+  "theater_id": 19,
+  "name": "National Theater",
+  "city": "Paris",
+  "pincode": 503002,
+  "movie_id": 10,
+  "timing": "9:35 AM",
+  "address": "Near Court back side"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372daa"
+  },
+  "theater_id": 20,
+  "name": "National Theater",
+  "city": "America",
+  "pincode": 45665,
+  "movie_id": 10,
+  "timing": "9:35 PM",
+  "address": "Near MJBS bus stop"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372dab"
+  },
+  "theater_id": 21,
+  "name": "Natioal Theater",
+  "city": "America",
+  "pincode": 123432,
+  "movie_id": 11,
+  "timing": "9:35 PM",
+  "address": "Near Manjulla hospital"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372dac"
+  },
+  "theater_id": 22,
+  "name": "Global CTN",
+  "city": "America",
+  "pincode": 34554,
+  "movie_id": 12,
+  "timing": "9:35 PM",
+  "address": "Back of Beer shop"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372dad"
+  },
+  "theater_id": 23,
+  "name": "Global CTN",
+  "city": "London",
+  "pincode": 987234,
+  "movie_id": 13,
+  "timing": "9:35 PM",
+  "address": "Near Kalerama temple"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372dae"
+  },
+  "theater_id": 24,
+  "name": "Global CTN",
+  "city": "America",
+  "pincode": 98787,
+  "movie_id": 14,
+  "timing": "9:35 PM",
+  "address": "Near Gokul hospital"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372daf"
+  },
+  "theater_id": 25,
+  "name": "PVR",
+  "city": "Kukatpally",
+  "pincode": 765456,
+  "movie_id": 15,
+  "timing": "9:35 PM",
+  "address": "Front of Harlem showroom"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372db0"
+  },
+  "theater_id": 26,
+  "name": "PVR",
+  "city": "Kukatpally",
+  "pincode": 45677,
+  "movie_id": 16,
+  "timing": "9:35 PM",
+  "address": "Near Pepsi company"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372db1"
+  },
+  "theater_id": 27,
+  "name": "PVR",
+  "city": "Kukatpally",
+  "pincode": 98576,
+  "movie_id": 17,
+  "timing": "9:35 PM",
+  "address": "Opposite to Kalamandir showroom"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372db2"
+  },
+  "theater_id": 28,
+  "name": "PVR",
+  "city": "Kukatpally",
+  "pincode": 45654,
+  "movie_id": 18,
+  "timing": "9:35 PM",
+  "address": "Near bus stop"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372db3"
+  },
+  "theater_id": 29,
+  "name": "Imax",
+  "city": "Hyderabad",
+  "pincode": 765446,
+  "movie_id": 19,
+  "timing": "9:35 PM",
+  "address": "Front of girls hostel"
+},
+{
+  "_id": {
+    "$oid": "6522a40bc84d739270372db4"
+  },
+  "theater_id": 30,
+  "name": "Imax",
+  "city": "Hyderabad",
+  "pincode": 87667,
+  "movie_id": 20,
+  "timing": "9:35 PM",
+  "address": "Back of boys hostel"
+}]
