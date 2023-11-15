@@ -1,140 +1,20 @@
 [{
   "_id": {
-    "$oid": "6522a8bc721fac685a1d749b"
+    "$oid": "6540f2f13b80f0f97a1b45eb"
   },
   "booking_id": 1,
   "user_id": 1,
-  "movie_id": 6,
-  "theater_id": 12,
-  "total_cost": 450
-},
-{
-  "_id": {
-    "$oid": "6522a8df721fac685a1d74a1"
-  },
-  "booking_id": 2,
-  "user_id": 1,
-  "movie_id": 6,
-  "theater_id": 12,
-  "total_cost": 600
-},
-{
-  "_id": {
-    "$oid": "6522a90b721fac685a1d74a6"
-  },
-  "booking_id": 3,
-  "user_id": 1,
-  "movie_id": 17,
-  "theater_id": 27,
-  "total_cost": 300
-},
-{
-  "_id": {
-    "$oid": "6522a9e9721fac685a1d74ac"
-  },
-  "booking_id": 4,
-  "user_id": 1,
-  "movie_id": 4,
-  "theater_id": 8,
-  "total_cost": 600
-},
-{
-  "_id": {
-    "$oid": "6522d12e5d572f41d283c611"
-  },
-  "booking_id": 5,
-  "user_id": 2,
-  "movie_id": 6,
-  "theater_id": 12,
+  "movie_id": 3,
+  "theater_id": 6,
   "total_cost": 500
 },
 {
   "_id": {
-    "$oid": "6522d1595d572f41d283c61a"
+    "$oid": "6554c3345b938ff7382f608d"
   },
-  "booking_id": 6,
-  "user_id": 2,
-  "movie_id": 7,
-  "theater_id": 13,
-  "total_cost": 1100
-},
-{
-  "_id": {
-    "$oid": "6522d1845d572f41d283c62c"
-  },
-  "booking_id": 7,
-  "user_id": 2,
-  "movie_id": 1,
-  "theater_id": 1,
-  "total_cost": 850
-},
-{
-  "_id": {
-    "$oid": "6522d1a75d572f41d283c63d"
-  },
-  "booking_id": 8,
-  "user_id": 2,
-  "movie_id": 2,
-  "theater_id": 3,
-  "total_cost": 700
-},
-{
-  "_id": {
-    "$oid": "6522d1e35d572f41d283c64f"
-  },
-  "booking_id": 9,
-  "user_id": 2,
-  "movie_id": 4,
-  "theater_id": 7,
-  "total_cost": 600
-},
-{
-  "_id": {
-    "$oid": "6522d2055d572f41d283c657"
-  },
-  "booking_id": 10,
-  "user_id": 2,
-  "movie_id": 5,
-  "theater_id": 9,
-  "total_cost": 600
-},
-{
-  "_id": {
-    "$oid": "6522d22a5d572f41d283c65f"
-  },
-  "booking_id": 11,
-  "user_id": 2,
-  "movie_id": 6,
-  "theater_id": 11,
-  "total_cost": 650
-},
-{
-  "_id": {
-    "$oid": "6522d2505d572f41d283c66a"
-  },
-  "booking_id": 12,
-  "user_id": 2,
-  "movie_id": 7,
-  "theater_id": 13,
-  "total_cost": 900
-},
-{
-  "_id": {
-    "$oid": "6522d2715d572f41d283c675"
-  },
-  "booking_id": 13,
-  "user_id": 2,
-  "movie_id": 8,
-  "theater_id": 15,
-  "total_cost": 700
-},
-{
-  "_id": {
-    "$oid": "6522d2b45d572f41d283c680"
-  },
-  "booking_id": 14,
-  "user_id": 2,
-  "movie_id": 17,
-  "theater_id": 27,
-  "total_cost": 1000
+  "booking_id": 2,
+  "user_id": 1,
+  "movie_id": 3,
+  "theater_id": 5,
+  "total_cost": 450
 }]
